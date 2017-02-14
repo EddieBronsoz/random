@@ -7,15 +7,22 @@ var namespace = "http://www.w3.org/2000/svg"
 function createFirstScene() {
 makeCircle(100, 50, 25, "cyan", 0.25)
 makeEllipse(100, 75, 10, 25, "red", 0.25)
+makePolygon("150,0 100,50 200,50", "purple", 0.15) }
+
    
-}
+
 
 
 // Fill in this function so that it draws something using SVG shapes!
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createSecondScene() {
-    
+    makeLine(15, 35, 105, 110, "yellow", 2, 0.3)
+    makeRect(50, 50, 50, 50, "black", 0.1)
+    makeCircle(120, 45, 75, "blue", 0.25)
+
+
+
 }
 
 
@@ -23,6 +30,11 @@ function createSecondScene() {
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createThirdScene() {
+    makeRect( 20, 40, 40, 48, "pink", 0.1)
+    makePolygon("150,0 100,50 175,550","brown", 0.15) 
+makeImage("https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Boston_Celtics.svg/1024px-Boston_Celtics.svg.png", 0, 0, 25, 25, 1)
+
+
     
 }
 
